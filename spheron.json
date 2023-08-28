@@ -1,0 +1,17 @@
+{
+  "configuration": {
+    "name": "ajna-live",
+    "protocol": "filecoin",
+    "path": "./build",
+    "rootPath": "./",
+    "organization": "64c908238cef7f0011249315",
+    "framework": {
+      "name": "react",
+      "configuration": {
+        "installCommand": "yarn install",
+        "buildCommand": "yarn build",
+        "publishDirectory": "build"
+      }
+    }
+  }
+}
